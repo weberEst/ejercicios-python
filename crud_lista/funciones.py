@@ -2,11 +2,11 @@ def agregar_usuario (id,nombre,lista_usuarios):
     for elementos in lista_usuarios:
         for buscandoid in elementos:     
                 
-          if id!=buscandoid: 
+          if id != buscandoid: 
              validation = True
              break   
                       
-          elif id==buscandoid:            
+          elif id == buscandoid:            
              validation = False
              break
 
